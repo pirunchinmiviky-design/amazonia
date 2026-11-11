@@ -1,0 +1,6 @@
+{
+  "name": "Amazonía Ecuador - Turismo",
+  "description": "Descubre la magia de la Amazonía ecuatoriana: expediciones, biodiversidad, reservas de Yasuní y Cuyabeno, cascadas y experiencias culturales comunitarias.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+:root {
+  --verde-amazonas: #1e5631;
+  --verde-oscuro: #123b23;
+  --verde-profundo: #0d2818;
+  --verde-claro: #2d7a46;
+  --verde-esmeralda: #10b981;
+  --dorado-sol: #f59e0b;
+}
+
+/* Custom utility classes preserving the user's signature palette */
+.bg-verde {
+  background-color: #1e5631;
+}
+
+.bg-verde-dark {
+  background-color: #123b23;
+}
+
+.text-verde {
+  color: #1e5631;
+}
+
+.border-verde {
+  border-color: #1e5631;
+}
+
+/* Glassmorphism and overlay effects */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.glass-panel-dark {
+  background: rgba(18, 59, 35, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
